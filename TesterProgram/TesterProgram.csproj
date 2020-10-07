@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TesterProgram.LoginTester</StartupObject>
+    <StartupObject>TesterProgram.ContactInfoTester</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactInfoTester.cs" />
     <Compile Include="LoginTester.cs" />
     <Compile Include="StudentTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
