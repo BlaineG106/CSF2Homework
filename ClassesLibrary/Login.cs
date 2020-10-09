@@ -35,8 +35,8 @@ namespace ClassesLibrary
         //methods
         public override string ToString()
         {
-            return string.Format("userName-{0}\n" +
-                "password-{1}\n", UserName, Password);
+            return string.Format("User Name: {0}\n" +
+                "Password: {1}\n", UserName, Password);
         }
 
     }

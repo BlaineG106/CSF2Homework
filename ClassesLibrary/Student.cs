@@ -49,10 +49,10 @@ namespace ClassesLibrary
         //methods
         public override string ToString()
         {
-            return string.Format("firstName-{0}\n" +
-                "lastName-{1}\n" +
-                "id-{2}\n" +
-                "gpa-{3}\n", FirstName, LastName, Id, GPA);
+            return string.Format("First Name: {0}\n" +
+                "Last Name: {1}\n" +
+                "ID: {2}\n" +
+                "GPA: {3:n2}\n", FirstName, LastName, Id, GPA);
         }//end ToString()
 
     }//end class

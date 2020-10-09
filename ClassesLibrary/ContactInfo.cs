@@ -61,10 +61,12 @@ namespace ClassesLibrary
         //methods
         public override string ToString()
         {
-            return string.Format("streetAddress-{0}\n" +
-                "city-{1}\n" +
-                "state-{2}\n" +
-                "zip-" + Zip + "\nphone-" + Phone + "\nemail-{3}\n", StreetAddress, City, State, Email);
+            return string.Format("Street Address: {0}\n" +
+                "City: {1}\n" +
+                "State: {2}\n" +
+                "Zip: {3}\n" +
+                "Phone: {4}\n" +
+                "Email: {5}", StreetAddress, City, State, Zip, Phone, Email);
         }
     }
 }

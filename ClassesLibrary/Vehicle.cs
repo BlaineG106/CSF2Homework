@@ -49,9 +49,10 @@ namespace ClassesLibrary
         //methods
         public override string ToString()
         {
-            return string.Format("make-{0}\n" +
-               "model-{1}\n" + Year + "\n" + Weight + "\n", Make, Model);
-                
+            return string.Format("Make: {0}\n" +
+               "Model: {1}\n" +
+               "Year: {2}\n" +
+               "Weight: {3}\n", Make, Model, Year, Weight);
         }
 
 
